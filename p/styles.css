@@ -1,0 +1,54 @@
+.tree {
+
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+
+  padding: 4px;
+
+
+}
+
+.active {
+  display: block !important;
+
+}
+
+.branch {
+  list-style-type: none;
+  display: none;
+}
+
+.folder {
+  height: 0px;
+  width: 0px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDE0NHYyODhjMCAyNi41LTIxLjUgNDgtNDggNDhoLTQxNkMyMS41IDQ4MCAwIDQ1OC41IDAgNDMydi0zNTJDMCA1My41IDIxLjUgMzIgNDggMzJoMTYwbDY0IDY0aDE5MkM0OTAuNSA5NiA1MTIgMTE3LjUgNTEyIDE0NHoiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  overflow: clip;
+  padding: 8px;
+  text-align: center;
+  background-position: center;
+  position: relative;
+  filter: invert(74%) sepia(99%) saturate(730%) hue-rotate(357deg) brightness(100%) contrast(104%);
+}
+
+.file {
+  height: 0px;
+  width: 0px;
+  background-repeat: no-repeat;
+  overflow: clip;
+  padding: 6px;
+  text-align: center;
+  background-position: center;
+  position: relative;
+  filter: invert(74%) sepia(99%) saturate(730%) hue-rotate(357deg) brightness(100%) contrast(104%);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjY1IDI4LjY1IDAgNjQgMEgyMjRWMTI4QzIyNCAxNDUuNyAyMzguMyAxNjAgMjU2IDE2MEgzODRWNDQ4QzM4NCA0ODMuMyAzNTUuMyA1MTIgMzIwIDUxMkg2NEMyOC42NSA1MTIgMCA0ODMuMyAwIDQ0OFY2NHpNMjU2IDEyOFYwTDM4NCAxMjhIMjU2eiIvPjwvc3ZnPg==);
+
+}
+
+.cont {
+  width: 100%;
+  border-style: solid;
+  background-color: #dea002;
+
+}
